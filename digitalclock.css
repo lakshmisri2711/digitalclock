@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: 100% 150vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 310px;
+    height: 310px;
+    background-color: rgba(110, 105, 105, 0.336);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+}
+#time{
+    color: purple;
+    font-size: 8vw;
+    text-shadow: 5px 5px 5px black;
+}
+#date,#day{
+    color:palevioletred ;
+    font-size: 4vw;
+    text-shadow: 5px 5px 5px black;
+}
+
+#sec{
+    font-size: 30vw;
+    color: lawngreen;
+    text-shadow: 5px 5px 5px black;
+}
